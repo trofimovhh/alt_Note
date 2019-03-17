@@ -27,7 +27,7 @@ public final class Notebook {
 
     protected void deleteNote(int index) {
         if (index >= myNotebook.length) {
-            System.out.println("No entry with this index");
+            System.out.println("No note with this index");
         } else {
             if (index != myNotebook.length - 1) {
                 for (int id = index; id < myNotebook.length - 1; id++) {

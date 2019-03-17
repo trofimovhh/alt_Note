@@ -48,6 +48,6 @@ public class User {
                 System.out.println("Restart this program and try again!");
                 break;
         }
-        System.out.println("Restart this program!");
+        System.out.println("Restart this program and try again!");
     }
 }
